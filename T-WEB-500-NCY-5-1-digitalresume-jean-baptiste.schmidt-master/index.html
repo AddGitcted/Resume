@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <title>JBS Web</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <a href="#about"><img class="profilpic" src="img/profilpic.png" alt=""></a>
+        <div class="brand">
+          <a href="#hero">
+            <h1>Jean-Baptiste Schmidt</h1>
+          </a>
+        </div>
+        <div class="nav-list" id="nav-list">
+
+          <ul>
+            <li><a href="#hero" data-after="Home">Accueil</a></li>
+            <li><a href="#about" data-after="About">Profil</a></li>
+            <li><a href="#path" data-after="Projects">Parcours</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+
+      <div class="call">
+        <h1>Apprenti Développeur<span></span></h1>
+
+        <h1>Web et mobile<span></span></h1>
+        <span id="typed"></span> <br>
+        <a href="#about" type="button" class="cta">Vous cherchez un dev. motivé?</a>
+      </div>
+     
+
+    </div>
+
+  </section>
+  <!-- End Hero Section  -->
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+
+        <div class="about-img">
+          <img src="./img/larger.png" alt="img">
+        </div>
+        <ul>
+          <li><strong>Prénom et Nom : <br></strong>Jean-Baptiste SCHMIDT</li>
+          <li><strong>Date de naissance : <br> </strong> 17/07/1993</li>
+          <li><strong>Ville : <br> </strong> BECHY</li>
+          <li><strong>Téléphone : <br> </strong> 06 74 63 01 46</li>
+          <li><strong>Email : <br></strong>schmidt.jeanbaptiste@gmail.com</li>
+        </ul>
+
+        <a href="https://www.linkedin.com/in/schmidtjb" target="_blank"><img id="linkedin" src="img/linkedin.png"
+            alt="Linked in"></a>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">A propos de moi</h1>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, velit alias eius non illum beatae atque
+          repellat ratione qui veritatis repudiandae adipisci maiores.!</p>
+        <h2>Mes compétences techniques</h2>
+        <div id="skills">
+          <div class="skillbar clearfix " data-percent="75%">
+            <div class="skillbar-title" style="background: #131313;"><span>HTML/CSS</span></div>
+            <div class="skillbar-bar" style="background: #131313;"></div>
+            <div class="skill-bar-percent">75%</div>
+          </div>
+
+          <div class="skillbar clearfix " data-percent="50%">
+            <div class="skillbar-title" style="background: #131313;"><span>JavaScript</span></div>
+            <div class="skillbar-bar" style="background: #131313;"></div>
+            <div class="skill-bar-percent">50%</div>
+          </div>
+
+          <div class="skillbar clearfix" data-percent="50%">
+            <div class="skillbar-title" style="background: #131313;"><span>C/C++ </span></div>
+            <div class="skillbar-bar" style="background: #131313;"></div>
+            <div class="skill-bar-percent">50%</div>
+          </div>
+          <div class="skillbar clearfix" data-percent="30%">
+            <div class="skillbar-title" style="background: #131313;"><span>AJAX </span></div>
+            <div class="skillbar-bar" style="background: #131313;"></div>
+            <div class="skill-bar-percent">30%</div>
+          </div>
+          <div class="skillbar clearfix" data-percent="25%">
+            <div class="skillbar-title" style="background: #131313;"><span>Java </span></div>
+            <div class="skillbar-bar" style="background: #131313;"></div>
+            <div class="skill-bar-percent">25%</div>
+          </div>
+
+          <div class="skillbar clearfix" data-percent="65%">
+            <div class="skillbar-title" style="background: #131313;"><span>Materialize </span></div>
+            <div class="skillbar-bar" style="background: #131313;"></div>
+            <div class="skill-bar-percent">65%</div>
+          </div>
+          <div class="skillbar clearfix" data-percent="60%">
+            <div class="skillbar-title" style="background: #131313;"><span>Bootstrap </span></div>
+            <div class="skillbar-bar" style="background: #131313;"></div>
+            <div class="skill-bar-percent">60%</div>
+          </div>
+          <div class="skillbar clearfix" data-percent="60%">
+            <div class="skillbar-title" style="background: #131313;"><span>jQuery </span></div>
+            <div class="skillbar-bar" style="background: #131313;"></div>
+            <div class="skill-bar-percent">60%</div>
+          </div>
+
+          <div class="skillbar clearfix" data-percent="30%">
+            <div class="skillbar-title" style="background: #131313;"><span>Node.js </span></div>
+            <div class="skillbar-bar" style="background: #131313;"></div>
+            <div class="skill-bar-percent">30%</div>
+          </div>
+          <a href="#" class="cta">CV en PDF</a>
+        </div>
+      </div>
+  </section>
+
+  <!-- End About Section -->
+  <!-- Parcours Section -->
+  <section id="path">
+    <div class="path container ">
+      <div class="path-header">
+        <div class="parcours">
+          <h1 class="section-title parcours">Mon parcours</h1>
+        </div>
+        <h3 class="Formation">Formations</h3>
+        <div class="timeline">
+          <div class="Tcontainer left ">
+            <div class="content incoming">
+              <h2>2021-2023 (à venir)</h2>
+              <p>Titre professionnel de niveau 7 (BAC+5) <br><span class="ita"> EPITECH, NANCY</span> </p>
+            </div>
+          </div>
+          <div class="Tcontainer right">
+            <div class="content">
+              <h2>2020-2021 (en cours)</h2>
+              <p>Titre professionnel de « Responsable de Projets Web et Mobile » de niveau 6 (BAC+3) <br><span
+                  class="ita">EPITECH, NANCY</p></span>
+            </div>
+          </div>
+          <div class="Tcontainer left">
+            <div class="content">
+              <h2>2018-2019</h2>
+              <p>Titre professionnel de « Technicien Supérieur en Automatique et Informatique Industrielle » de niveau 5
+                (BAC+2) <br>
+                <span class="ita"> AFPA, METZ</span> </p>
+            </div>
+          </div>
+          <div class="Tcontainer right">
+            <div class="content">
+              <h2>2011</h2>
+              <p>Niveau Baccalauréat Scientifique – SI <br><span class="ita">Lycée Charles-Jully, ST-AVOLD </span> </p>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="Formation">Expériences</h3>
+        <div class="timeline">
+          <div class="Tcontainer left">
+            <div class="content">
+              <h2>12/03/2019-10/05/2019</h2>
+              <p>Stagiaire Automaticien <br> <span class="ita">NOVACARB, LANEUVEVILLE-DT-NANCY</span> </p>
+            </div>
+          </div>
+          <div class="Tcontainer right">
+            <div class="content">
+              <h2>2020-2021</h2>
+              <p>Opérateur de montage <br> <span class="ita"></span>PSA, METZ</span> </p>
+            </div>
+          </div>
+          <div class="Tcontainer left">
+            <div class="content">
+              <h2>2018-2019</h2>
+              <p>Manutentionnaire / Fromagerie HUTIN, <br><span class="ita"></span> DIEUE-SUR-MEUSE</span> </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Parcours Section -->
+      <!-- Contact Section -->
+      <section id="contact">
+        <div class="contact container">
+          <div>
+            <h1 class="section-title">Contact </h1>
+          </div>
+
+        </div>
+      </section>
+      <!-- End Contact Section -->
+      <script src="./js/typed.js"></script>
+      <script src="./js/script.js"></script>
+</body>
+</html>

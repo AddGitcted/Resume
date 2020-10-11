@@ -1,0 +1,16 @@
+{
+  "name": "1pagefullk",
+  "version": "1.0.0",
+  "description": "This project is for html &amp; css practice. We made this for youtube tutorial purpose. <b>coded by [Shaif Arfan](https://github.com/shaifarfan)</b> ### 👍 HAVE FUN 👍 Thanks, Arfan",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "typed.js": "^2.0.11"
+  }
+}
